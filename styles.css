@@ -1,0 +1,43 @@
+body {
+    background: rgb(53, 54, 75);
+    color:white;
+}
+
+h1, h3 {
+    color:rgb(253, 141, 81);
+}
+.page-title {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    width:900px;
+}
+/* ----------------------------------------------------------------- */
+.press-it, .b-one, .b-two, .b-three, a {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none; /*removes line underneath link*/
+    padding: 15px 15px;
+    
+}
+/* ------------------------------------------------------------------ */
+.b-one {
+    background-color: rgb(81, 160, 81);
+}
+.b-two {
+    background-color: rgb(15, 148, 196);
+}
+.b-three {
+    background-color: rgb(159, 13, 13); 
+}
+/* ------------------------------------------------------------------ */
+a:hover {
+    background-color: blueviolet;
+    color:gold;
+}
+/* ------------------------------------------------------------------ */
+.ingredients, .steps {
+    font-family: sans-serif;
+}
