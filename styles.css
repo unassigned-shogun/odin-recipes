@@ -7,7 +7,8 @@ h1, h3 {
     color:rgb(253, 141, 81);
 }
 .page-title {
-    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-family: sans-serif;
     width:900px;
@@ -40,4 +41,10 @@ a:hover {
 /* ------------------------------------------------------------------ */
 .ingredients, .steps {
     font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    margin-top: 10px;
 }
